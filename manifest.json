@@ -1,0 +1,32 @@
+{
+    "name": "Rick Roller",
+    "description": "Turn any website into a Rickroll!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [ "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/rickroll_16.png",
+            "32": "/images/rickroll_32.png",
+            "48": "/images/rickroll_48.png",
+            "128": "/images/rickroll_128.png"
+          }
+      },
+      "icons": {
+        "16": "/images/rickroll_16.png",
+        "32": "/images/rickroll_32.png",
+        "48": "/images/rickroll_48.png",
+        "128": "/images/rickroll_128.png"
+      },
+      "commands": {
+        "_execute_action": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+F",
+            "mac": "MacCtrl+Shift+F"
+          },
+          "description": "Opens Rick"
+        }
+      }
+  }
+  
